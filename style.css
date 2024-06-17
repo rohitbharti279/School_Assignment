@@ -1,0 +1,82 @@
+body {
+    background-image: url(./img/bg_6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(47, 25, 92);
+}
+
+.home {
+    color: rgb(0, 0, 0) ;
+    font-weight: bolder;
+}
+
+.allAward {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.singleAward {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.singleAward {
+    text-align: center;
+}
+
+.tableCss {
+    margin: auto;
+}
+
+.tableCss tr th {
+    border: 3px solid black;
+}
+
+
+.tableCss tr td {
+    border: 2px solid black;
+}
+
+.movie {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.firstMovie {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.music {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.firstMusic {
+    margin: 20px;
+    text-align: center;
+}
+
+.firstMusic video {
+    max-width: 100%;
+    height: auto;
+}
+
+.firstMusic p {
+    font-family: monospace;
+    font-size: 24px;
+    margin: 10px 0 0;
+}
